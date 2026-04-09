@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bookworm AS base
+FROM python:3.13.12-slim-bookworm AS base
 
 # Install system dependencies
 RUN apt-get update && \
